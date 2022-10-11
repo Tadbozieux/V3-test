@@ -1,0 +1,647 @@
+/* GENERAL */
+html
+{
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+
+/*classes Flex et COuleur*/
+
+.flexCenter
+{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flexColumCenter
+{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.flexBetween
+{display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.flexColumBetween
+{display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+.flexAround
+{display: flex;
+justify-content: space-around;
+align-items: center;}
+
+.flexColumAround
+{display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.backgroundgrey
+{background-color: #F2F2F2 ;}
+
+.colorblue
+{color: #0065FC;}
+
+.colorblue2
+{color:#DEEBFF;}
+
+.colorgrey
+{color: #F2F2F2;}
+
+
+.titres
+{font-weight: bold;}
+
+
+
+
+
+/*------------HEADER-------------*/
+
+header{
+  width: 98%;
+margin: auto;
+}
+
+
+
+.logo_et_nav
+{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+
+
+nav
+{
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.liens_nav
+{
+  display: flex;
+  width: 100%;
+  height: 99px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.liens_nav:hover
+{
+  border-top: #0065FC solid 2px;
+}
+
+.liens_nav a
+{
+  text-decoration:none;
+  color: black;
+}
+
+.liens_nav a:hover
+{
+  text-decoration:none;
+  color: #0065FC;
+}
+
+
+
+.logo
+{
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
+.bordure_lien_destop:hover
+{
+  border-top: #0065FC solid 2px;
+  cursor: pointer;
+}
+
+.barrerecherche
+{
+  width: 500px;
+  margin-top: 50px;
+
+}
+
+.iconepunaise
+{
+  height: 50px;
+  width: 50px;
+  background-color: #F2F2F2;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.inputrecherche
+{
+  width: 250px;
+  height: 50px;
+  padding-left: 5px;
+  border: none;
+}
+
+.boutonrecherche
+{
+  width: 150px;
+  height: 50px;
+  background-color: #0065FC ;
+  border-radius: 0px 20px 20px 0px;
+  color: white
+}
+
+/* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres */
+
+.marg-filtre 
+{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.filtre 
+{
+  display: flex;
+  align-items: center;
+}
+  .marg-filtre-titre 
+{
+  margin-right: 20px;
+}
+  
+.filtre-texte-icons
+{
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+  
+.filtre-texte-icons:hover > .filtre-texte 
+{
+    color: #0065fc;
+}
+
+.filtre-texte-icons:hover > .filtre-icons 
+{
+  color: white;
+  background-color: #0065fc;
+}
+  
+.filtre-texte:hover
+{background-color:#F2F2F2 ;}
+
+
+
+.filtre-texte 
+{
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+}
+  
+.filtre-icons 
+{
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+  
+
+
+    /*--------------------- INFO ICONE---------------------- */  
+  .info {
+    display: flex;
+    align-items: center;
+  }
+
+  .parent-icon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+  }
+
+
+
+
+
+
+  /*---------------Hebergement---------------*/
+
+.Hebergement
+{
+  flex: 2;
+  height: 700px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.blocHebergement
+{ 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Populaires
+{
+  flex: 1;
+  height: 700px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+
+.imagehebergement1
+{
+  background-image: url("../Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagehebergement2
+{
+  background-image: url("../Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagehebergement3
+{
+  background-image: url("../Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagehebergement4
+{
+  background-image: url("../Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagehebergement5
+{
+  background-image: url("../Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;}
+
+.imagehebergement6
+{
+  background-image: url("../Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+
+
+.card1
+{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.card1:hover
+{
+  transform: scale(1.2); 
+}
+
+
+.cards123
+{
+  margin-bottom: 10px;
+}
+
+.cards456
+{
+  margin-top: 10px;
+}
+
+.cardsdetailhebergement
+{
+  width: 90%;
+}
+
+
+.etoilebleue
+{
+  color: #0065FC;
+}
+
+.etoilegrise
+{
+  color: #DEEBFF;
+}
+
+
+/*----------FAVORIS  --------------*/
+
+.grosbloc
+{
+  display: flex;
+}
+
+
+
+.entetepop
+{
+  padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.imgpop1
+{
+  background-image: url("../Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 170px;
+  border-radius: 15px 0 0 15px;
+}
+
+
+
+.imgpop2
+{
+  background-image: url("../Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 170px;
+  border-radius: 15px 0 0 15px;
+}
+    
+.imgpop3
+{
+  background-image: url("../Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 170px;
+  border-radius: 15px 0 0 15px;
+}
+
+
+
+.carspop1
+{ 
+  display:Flex  ;   
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.textpop1
+{
+  padding-left: 30px;
+}
+
+
+.cardspop
+{
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.cardspop:hover
+{
+transform: scale(1.2);
+}
+
+
+.cardspopN1N2
+{
+  margin-bottom: 20px;
+}
+
+.cardsdetailpop
+{
+  width: 60%;
+}
+
+
+.totalcardspop
+{
+  height: 620px;
+}
+
+
+
+
+
+
+  /* ACTIVITE MARSEILLE */
+
+
+
+.Activitégenerale
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.totalcarsactivite
+{
+  width: 100%;
+  height: 600px;
+}
+
+.totalcarsactivitepetite   /*Comprend 2 cards activité petite comptant comme 1 .cardsactivité (grand format donc)*/
+
+{
+  width: 23%;
+  height: 600px;
+}
+
+
+.ImgActivité1
+{
+  background-image: url("../Images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+.cardsactivité                 /*Conteneur img et texte grand format*/
+{
+  width: 23%;                            
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cardsactivité:hover
+{
+  transform: scale(1.2);
+}
+
+
+.cardsactivitépetite
+{
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cardsactivitépetite:hover
+{
+  transform: scale(1.2);
+}
+
+
+.titreactivité
+{
+  padding-left: 10%;
+  text-decoration: none;
+}
+
+
+
+.ImgActivité2
+{
+  background-image: url("../Images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 310px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+.ImgActivité3
+{
+  background-image: url("../Images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+.ImgActivité4
+{
+  background-image: url("../Images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+
+.ImgActivité5
+{
+  background-image: url("../Images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+
+
+.ImgActivité6
+{
+  background-image: url("../Images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.titreactivité
+
+
+/*------------FOOTER----------------------*/
+
+.footerportable
+{
+  width: 100%;
+
+}
+
+.colonne1
+{
+  padding-left: 5%;
+  height: 100%;
+  padding-top: 30px;
+}
+
+
+.colonne3
+{
+  padding-right: 15%;
+  height: 100%;
+  padding-top: 30px;
+}
+
+
+.footerportable
+{
+  background-color:#F2F2F2 ;
+  width: 100%;
+  height: 250px;
+}

@@ -1,0 +1,237 @@
+@media screen and (max-width: 992px)
+
+{
+    nav
+    {width: 35%;}
+
+
+
+
+.filtre
+{flex-wrap: wrap;
+justify-content: center;}
+
+
+
+.grosbloc
+{
+    flex-direction: column-reverse;
+}
+
+
+
+.Hebergement
+{width: 100%;
+margin-right: 0;}
+
+
+.cardsdetailhebergement         /* imposition de la taille d'une cards Hebergement    */
+{height: 150px;}
+
+
+.Populaires
+{   margin-bottom: 20px;
+    width: 100%;
+margin-left: 0px;}
+
+}
+
+
+/*-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px)      /* Breackpoint 768px*/
+
+{   
+
+    
+    .logo_et_nav                            /*le menu NAV passe sous le logo*/
+    {  
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    #logo                   /* redimentionnement logo*/
+    {   
+        height: 50px;
+        width: 150px;
+    }
+    
+    
+
+
+   
+    .liens_nav
+    {
+        height: 50px;
+    }    /*redimentionnement block liens.nav*/
+    
+    nav 
+    {   
+        width: 100%;
+        justify-content: space-around;
+        font-size: 1.2em;
+    }
+
+        .liens_nav:hover             /*supression bordure superieure et ajout bordure inf*/
+    {
+        border-bottom: #0065Fc solid 2px;
+        border-top:none ;
+    }
+
+   
+
+    .titres
+    {
+        margin-top: 50px;
+    }
+
+   .barrerecherche   /*repositionnement de la barre de recherche qui peut maintenant etre centrée*/
+   {
+    width: 100%;
+    }
+
+    
+
+
+   .info
+   {
+    margin-bottom: 30px;
+    }
+    /*-----------------------------------FILTRES----------------------------*/
+
+    .retourlignemob
+    {flex-direction: column;
+    align-items: flex-start;}
+    
+   /*-------------Hebergements---------------------*/
+
+
+    .grosbloc                   /* inversion de position entre "hebergement" et "les plus pop"*/
+    {   
+        flex-direction: column-reverse;
+    }
+
+
+    .Populaires     /*augmentation taille bloc "populaire et ajustement des marges*/
+    {   
+        width: 100%;
+        margin-right: 20px;
+    }
+
+
+
+    .blocHebergement
+    {   
+        background-color: white;
+        width: 100%;
+    }
+
+    .cards123
+    {   
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards456
+    {   
+        flex-direction: column;
+        width: auto;
+    }
+
+    .card1
+    {   display: block;
+        flex-direction: column;
+        width: 90%;
+        margin: 0;
+    }
+        
+
+
+
+
+   /*-------------------------Activités--------------------------------------------*/     /*   Equilibrage des 2 formats d'activité (S et XS) */
+    .totalcarsactivite 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cardsactivité
+
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+      .cardsactivitépetite
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .totalcarsactivitepetite
+    {
+        width: 100%;
+        height: auto;
+    }
+
+      
+      .ImgActivité1,
+      .ImgActivité2,
+      .ImgActivité3,
+      .ImgActivité4,
+      .ImgActivité5,
+      .ImgActivité6 
+    {
+        height: 200px;
+    }
+        
+        
+        /*--------------------FOOTER-------------------------*/
+        
+        
+        
+    .footerportable                              /*Footer en colonne et marge a gauche*/
+    {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 50px;
+            padding-left: 20px;
+            height: auto;
+            width: 100%;
+    }
+}
