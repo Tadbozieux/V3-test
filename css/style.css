@@ -180,6 +180,7 @@ nav
 
 .filtre 
 {
+  padding-left: 2%;
   display: flex;
   align-items: center;
 }
@@ -236,6 +237,7 @@ nav
   .info {
     display: flex;
     align-items: center;
+    padding-left: 2%;
   }
 
   .parent-icon {
