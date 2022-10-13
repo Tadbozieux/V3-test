@@ -1,15 +1,20 @@
 @media screen and (max-width: 992px)
 
 {
-    nav
-    {width: 35%;}
+
+nav
+{
+    width: 35%;
+}
 
 
 
 
 .filtre
-{flex-wrap: wrap;
-justify-content: center;}
+{
+    flex-wrap: wrap;
+justify-content: center;
+}
 
 
 
@@ -24,6 +29,127 @@ justify-content: center;}
 {width: 100%;
 margin-right: 0;}
 
+.cardspop
+{flex-direction: row;
+padding: 0;
+justify-content: space-between;}
+
+.imgpop1
+{width: 80%;}
+
+.imgpop2
+{width: 80%;}
+
+.imgpop3
+{width: 80%;}
+
+.cardsdetailpop
+{width: 60%;}
+
+.card1
+{padding: 0;}
+
+.imagehebergement1
+{
+    width: 100%;
+    height: 200px;
+}
+
+.imagehebergement2
+{
+    width: 100%;
+    height: 200px;
+}
+
+.imagehebergement3
+{
+    width: 100%;
+    height: 200px;
+}
+
+.imagehebergement4
+{
+    width: 100%;
+    height: 200px;
+}
+
+
+.imagehebergement5
+{
+    width: 100%;
+    height: 200px;
+}
+
+
+.imagehebergement6
+{
+    width: 100%;
+    height: 200px;
+}
+
+.imgbox
+{width: 60%;}
+
+.imgbox2
+{width: 100%;}
+
+
+.totalcardspop
+{margin: 5%;}
+
+
+
+.totalcarsactivite 
+{
+    flex-direction: column;
+    height: auto;
+    justify-content:right;
+    justify-content: baseline;
+}
+
+.cardsactivité
+
+{   display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+   
+}
+
+  .cardsactivitépetite
+{   display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.totalcarsactivitepetite
+{
+    width: 100%;
+    height: auto;
+    justify-content: baseline;
+}
+
+  
+  .ImgActivité1,
+  .ImgActivité2,
+  .ImgActivité3,
+  .ImgActivité4,
+  .ImgActivité5,
+  .ImgActivité6 
+{
+    height: 200px;
+}
+
+
+
+
+
+.titreactivité
+{padding: 20;}
+
+  
+
 
 .cardsdetailhebergement         /* imposition de la taille d'une cards Hebergement    */
 {height: 150px;}
@@ -37,7 +163,12 @@ margin-left: 0px;}
 }
 
 
-/*-------------------------------*/
+.colonne3
+
+{padding-left: 5%;
+padding-right: 10%;}
+
+/*-------------END------------------*/  /*-------------END------------------*/    /*-------------END------------------*/
 
 
 
@@ -107,7 +238,7 @@ margin-left: 0px;}
 
         .liens_nav:hover             /*supression bordure superieure et ajout bordure inf*/
     {
-        border-bottom: #0065Fc solid 2px;
+        border-bottom: #0065Fc solid 1px;
         border-top:none ;
     }
 
@@ -122,7 +253,8 @@ margin-left: 0px;}
    {
     width: 100%;
     }
-
+    
+  
     
 
 
@@ -132,23 +264,37 @@ margin-left: 0px;}
     }
     /*-----------------------------------FILTRES----------------------------*/
 
+    .filtre
+    {padding-left: 10%;}
+
+
+
     .retourlignemob
     {flex-direction: column;
     align-items: flex-start;}
     
+    .info
+    {padding-left: 10%;}
+
    /*-------------Hebergements---------------------*/
 
 
     .grosbloc                   /* inversion de position entre "hebergement" et "les plus pop"*/
     {   
         flex-direction: column-reverse;
+        padding: 0;
+        margin: 5%;
     }
+
+    
 
 
     .Populaires     /*augmentation taille bloc "populaire et ajustement des marges*/
     {   
         width: 100%;
         margin-right: 20px;
+        padding-left: 10%;
+        padding-right: 5%;
     }
 
 
@@ -179,11 +325,16 @@ margin-left: 0px;}
     }
         
 
-
+    
 
 
    /*-------------------------Activités--------------------------------------------*/     /*   Equilibrage des 2 formats d'activité (S et XS) */
-    .totalcarsactivite 
+    
+   .Activitégenerale
+   {padding: 5%;}
+   
+   
+   .totalcarsactivite 
     {
         flex-direction: column;
         height: auto;
@@ -191,13 +342,14 @@ margin-left: 0px;}
 
     .cardsactivité
 
-    {
+    {   flex-direction: column;
         width: 100%;
         margin-bottom: 50px;
     }
 
       .cardsactivitépetite
     {
+        flex-direction: column;
         width: 100%;
         margin-bottom: 50px;
     }
@@ -217,6 +369,7 @@ margin-left: 0px;}
       .ImgActivité6 
     {
         height: 200px;
+        width: 650px;
     }
         
         
