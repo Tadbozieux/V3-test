@@ -60,7 +60,17 @@ justify-content: space-around;
 
 
 .titres
-{font-weight: bold;}
+{font-weight: bold;
+padding-left: 1%;}
+
+
+
+a:visited
+{color: black;
+
+}
+
+a{text-decoration: none;}
 
 
 
@@ -305,6 +315,7 @@ color: white;}
  
   height: 120px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 .imagehebergement3
@@ -313,25 +324,29 @@ color: white;}
   
   height: 120px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 .imagehebergement4
 {
   height: 120px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 .imagehebergement5
 {
   
   height: 120px;
-  border-radius: 15px 15px 0 0;}
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;}
 
 .imagehebergement6
 {
   
   height: 120px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 
@@ -344,7 +359,7 @@ color: white;}
   padding: 1%;
   border-radius: 20px;
   box-shadow: 10px 0px #F2F2F2 ;
-  cursor:pointer
+  
 }
 
 .card1:hover
@@ -366,6 +381,7 @@ color: white;}
 .cardsdetailhebergement
 {
   width: 90%;
+  padding-left: 5%;
 }
 
 
@@ -397,10 +413,13 @@ padding-right: 20px;
 }
 
 
+
 .imgpop1
 {
   height: 170px;
   border-radius: 15px 0 0 15px;
+  object-fit: cover;
+  width:260px;
   
 }
 
@@ -410,12 +429,16 @@ padding-right: 20px;
 {
   height: 170px;
   border-radius: 15px 0 0 15px;
+  object-fit: cover;
+  width:260px;
 }
     
 .imgpop3
 {
   height: 170px;
   border-radius: 15px 0 0 15px;
+  object-fit: cover;
+  width:260px;
 }
 
 
@@ -447,7 +470,7 @@ padding-right: 20px;
 .cardspop:hover
 {
 transform: scale(1.2);
-cursor:pointer
+
 }
 
 
@@ -459,6 +482,7 @@ cursor:pointer
 .cardsdetailpop
 {
   width: 60%;
+  margin-left: 2%;
 }
 
 
@@ -499,12 +523,7 @@ cursor:pointer
 }
 
 
-.ImgActivité1
-{
-  
-  border-radius: 15px 15px 0 0;
 
-}
 
 
 .cardsactivité                 /*Conteneur img et texte grand format*/
@@ -543,11 +562,22 @@ cursor:pointer
 }
 
 
+.ImgActivité1
+{
+  
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  width: 420px; 
+  height: 480px
+}
+
 
 .ImgActivité2
 {
-  width: 90%;
+  width: 100%;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  height: 250px;
 
 }
 
@@ -556,6 +586,7 @@ cursor:pointer
 {
   width: 90%;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
 
 }
 
@@ -564,6 +595,9 @@ cursor:pointer
 {
   
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  width:420px;
+   height:480px;
 
 }
 
@@ -574,6 +608,8 @@ cursor:pointer
   
   height: 150px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover; 
+  height: 180px
 
 }
 
@@ -584,6 +620,8 @@ cursor:pointer
 
   height: 150px;
   border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  height: 200px;
 
 }
 
@@ -608,7 +646,7 @@ cursor:pointer
 
 .colonne3
 {
-  padding-right: 15%;
+  margin-right: 10%;
   height: 100%;
   padding-top: 30px;
 }
