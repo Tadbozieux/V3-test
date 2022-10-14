@@ -139,6 +139,7 @@ justify-content: space-between;}
   .ImgActivité6 
 {
     height: 200px;
+    
 }
 
 
@@ -254,8 +255,11 @@ padding-right: 10%;}
     width: 100%;
     }
     
-  
+    .louperecherche
+    {display: flex;}
     
+    .boutonrecherche
+    {display: none;}
 
 
    .info
@@ -371,7 +375,8 @@ padding-right: 10%;}
       .ImgActivité6 
     {
         height: 200px;
-        width: 650px;
+        width: 600px;
+        max-width: 100%;
     }
         
         

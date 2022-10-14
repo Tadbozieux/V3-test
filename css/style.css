@@ -170,6 +170,19 @@ nav
   color: white
 }
 
+
+.louperecherche
+{display: none;
+width: 60px;
+height: 50px;
+align-items: center;
+justify-content: center;
+background-color: #0065FC;
+border-radius: 0px 20px 20px 0px;
+color: white;}
+
+
+
 /* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres *//* Filtres */ /* Filtres */
 
 .marg-filtre 
@@ -331,6 +344,7 @@ nav
   padding: 1%;
   border-radius: 20px;
   box-shadow: 10px 0px #F2F2F2 ;
+  cursor:pointer
 }
 
 .card1:hover
@@ -387,6 +401,7 @@ padding-right: 20px;
 {
   height: 170px;
   border-radius: 15px 0 0 15px;
+  
 }
 
 
@@ -432,6 +447,7 @@ padding-right: 20px;
 .cardspop:hover
 {
 transform: scale(1.2);
+cursor:pointer
 }
 
 
@@ -502,6 +518,7 @@ transform: scale(1.2);
 .cardsactivité:hover
 {
   transform: scale(1.2);
+  cursor:pointer
 }
 
 
@@ -515,6 +532,7 @@ transform: scale(1.2);
 .cardsactivitépetite:hover
 {
   transform: scale(1.2);
+  cursor:pointer
 }
 
 
