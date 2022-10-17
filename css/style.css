@@ -1,10 +1,17 @@
 /* GENERAL */
+*{
+  box-sizing: border-box;
+}
 html
 {
   font-family: "Raleway", Arial, sans-serif;
 }
 
 
+.container-all{
+ 
+  margin: 0 2%;
+}
 /*classes Flex et COuleur*/
 
 .flexCenter
@@ -152,6 +159,7 @@ nav
 {
   width: 500px;
   margin-top: 50px;
+  justify-content: flex-start;
 
 }
 
@@ -169,6 +177,7 @@ nav
   height: 50px;
   padding-left: 5px;
   border: none;
+  font-weight: bold;
 }
 
 .boutonrecherche
@@ -242,6 +251,7 @@ color: white;}
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 0 25px 25px 0;
+  font-weight: bold;
 }
   
 .filtre-icons 
@@ -278,93 +288,59 @@ color: white;}
 
   /*---------------Hebergement---------------*/
 
-.Hebergement
-{
-  flex: 2;
-  height: 700px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
+
+  
+
 
 .blocHebergement
 { 
   padding-left: 20px;
   padding-right: 20px;
+  flex: 2;
+  height: 800px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 .Populaires
-{
+{flex-direction: fle;
   flex: 1;
-  height: 700px;
+  height: 800px;
   margin-left: 20px;
   border-radius: 10px;
 }
 
 
-.imagehebergement1
+.imagehebergement
 {
- 
-  
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-
-.imagehebergement2
-{
-  
- 
-  height: 120px;
+  width: 100%;
+   height: 150px; 
   border-radius: 15px 15px 0 0;
   object-fit: cover;
+
 }
 
-.imagehebergement3
-{
-  
-  
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;
-}
+.acard
+{display: block;
+width: 100%;}
 
-.imagehebergement4
-{
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;
-}
-
-.imagehebergement5
-{
-  
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;}
-
-.imagehebergement6
-{
-  
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;
-}
 
 
 
 .card1
 {
-  width: 30%;
-  height: auto;
+  width: 32%;
+  height: 100% ;
   background-color: white;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 10px 0px #F2F2F2 ;
+  box-shadow: 10px 10px 10px #F2F2F2 ;
   
 }
 
 .card1:hover
 {
-  transform: scale(1.2); 
+  transform: scale(1.05); 
 }
 
 
@@ -413,6 +389,9 @@ padding-right: 20px;
 }
 
 
+.titrepop
+{margin-bottom: 10px;
+}
 
 .imgpop1
 {
@@ -443,15 +422,7 @@ padding-right: 20px;
 
 
 
-.carspop1
-{ 
-  display:Flex  ;   
-  width: 100%;
-  height: auto;
-  background-color: white;
-  padding: 1%;
-  border-radius: 20px;
-}
+
 
 .textpop1
 {
@@ -465,11 +436,12 @@ padding-right: 20px;
   background-color: white;
   padding: 1%;
   border-radius: 20px;
+  margin-top: 8%;
 }
 
 .cardspop:hover
 {
-transform: scale(1.2);
+ transform: scale(1.05); 
 
 }
 
@@ -481,8 +453,8 @@ transform: scale(1.2);
 
 .cardsdetailpop
 {
-  width: 60%;
-  margin-left: 2%;
+  width: 65%;
+  margin-left: 3%;
 }
 
 
@@ -522,6 +494,11 @@ transform: scale(1.2);
   height: 600px;
 }
 
+.imgbox
+{width: 100%;}
+
+.imgbox2
+{width: 100%;}
 
 
 
@@ -536,7 +513,7 @@ transform: scale(1.2);
 
 .cardsactivité:hover
 {
-  transform: scale(1.2);
+  transform: scale(1.05);
   cursor:pointer
 }
 
@@ -550,7 +527,7 @@ transform: scale(1.2);
 
 .cardsactivitépetite:hover
 {
-  transform: scale(1.2);
+  transform: scale(1.05);
   cursor:pointer
 }
 
@@ -567,7 +544,7 @@ transform: scale(1.2);
   
   border-radius: 15px 15px 0 0;
   object-fit: cover;
-  width: 420px; 
+  width: 100%; 
   height: 480px
 }
 
@@ -584,7 +561,7 @@ transform: scale(1.2);
 
 .ImgActivité3
 {
-  width: 90%;
+  width: 100%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 
@@ -596,7 +573,7 @@ transform: scale(1.2);
   
   border-radius: 15px 15px 0 0;
   object-fit: cover;
-  width:420px;
+  width:100%;
    height:480px;
 
 }
@@ -606,10 +583,12 @@ transform: scale(1.2);
 .ImgActivité5
 {
   
-  height: 150px;
+ 
   border-radius: 15px 15px 0 0;
   object-fit: cover; 
-  height: 180px
+  height: 180px;
+  width: 100%;
+  
 
 }
 
@@ -621,7 +600,8 @@ transform: scale(1.2);
   height: 150px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
-  height: 200px;
+  width: 100%;
+ 
 
 }
 

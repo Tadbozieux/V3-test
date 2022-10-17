@@ -2,6 +2,13 @@
 
 {
 
+
+.container-all
+{margin: 5%;  }
+
+
+  
+
 nav
 {
     width: 35%;
@@ -24,10 +31,14 @@ justify-content: center;
 }
 
 
+.blocHebergement
+{margin: 0}
+
 
 .Hebergement
 {width: 100%;
-margin-right: 0;}
+margin-right: 0px;
+margin-top: 2%;}
 
 .cardspop
 {flex-direction: row;
@@ -38,10 +49,12 @@ justify-content: space-between;}
 {width: 80%;}
 
 .imgpop2
-{width: 80%;}
+{width: 224px;}
 
 .imgpop3
-{width: 80%;}
+{width: 100%;
+    width: 224px;
+    object-fit: cover}
 
 .cardsdetailpop
 {width: 60%;}
@@ -49,46 +62,17 @@ justify-content: space-between;}
 .card1
 {padding: 0;}
 
-.imagehebergement1
-{
-    width: 100%;
-    height: 200px;
-}
-
-.imagehebergement2
-{
-    width: 100%;
-    height: 200px;
-}
-
-.imagehebergement3
-{
-    width: 100%;
-    height: 200px;
-}
-
-.imagehebergement4
+.imagehebergement
 {
     width: 100%;
     height: 200px;
 }
 
 
-.imagehebergement5
-{
-    width: 100%;
-    height: 200px;
-}
-
-
-.imagehebergement6
-{
-    width: 100%;
-    height: 200px;
-}
 
 .imgbox
-{width: 60%;}
+{width: 60%;
+width:110%}
 
 .imgbox2
 {width: 100%;}
@@ -105,6 +89,7 @@ justify-content: space-between;}
     height: auto;
     justify-content:right;
     justify-content: baseline;
+    margin:auto;
 }
 
 .cardsactivité
@@ -113,6 +98,7 @@ justify-content: space-between;}
     width: 100%;
     margin-bottom: 50px;
     align-items: center;
+    
    
 }
 
@@ -121,6 +107,7 @@ justify-content: space-between;}
     width: 100%;
     margin-bottom: 50px;
     align-items: center;
+   
 }
 
 .totalcarsactivitepetite
@@ -128,8 +115,14 @@ justify-content: space-between;}
     width: 100%;
     height: auto;
     justify-content: baseline;
+    
 }
+    .acard3
+    {width: 100%;}
 
+
+    .imgbox3
+    {width: 100%;}
   
   .ImgActivité1,
   .ImgActivité2,
@@ -139,6 +132,7 @@ justify-content: space-between;}
   .ImgActivité6 
 {
     height: 200px;
+    width: 100%;
     
 }
 
@@ -158,8 +152,10 @@ justify-content: space-between;}
 
 .Populaires
 {   margin-bottom: 20px;
+    margin-left: 0;
     width: 100%;
-margin-left: 0px;}
+    
+}
 
 }
 
@@ -208,7 +204,15 @@ padding-right: 10%;}
 
 {   
 
-    
+    .container-all
+    {
+ 
+        width: 100%;
+        margin: 0;
+      }
+
+
+
     .logo_et_nav                            /*le menu NAV passe sous le logo*/
     {  
         flex-direction: column;
@@ -248,6 +252,8 @@ padding-right: 10%;}
     .titres
     {
         margin-top: 50px;
+        margin-left: 5%;
+        font-size: small;
     }
 
    .barrerecherche   /*repositionnement de la barre de recherche qui peut maintenant etre centrée*/
@@ -261,6 +267,12 @@ padding-right: 10%;}
     .boutonrecherche
     {display: none;}
 
+    .louperecherche
+    {border-radius: 20px;}
+
+    .inputrecherche
+    {width: auto;}
+
 
    .info
    {
@@ -269,7 +281,19 @@ padding-right: 10%;}
     /*-----------------------------------FILTRES----------------------------*/
 
     .filtre
-    {padding-left: 10%;}
+    {padding-left: 0%;
+    margin-left: 5%;}
+
+    .mobile-economiques
+    {   width: 100%;
+        margin-right: 5px;}
+
+    .mobile-familiales
+    {width: 85%;}
+
+    .filtre-texte
+    {padding: 10px;}
+
 
 
 
@@ -278,35 +302,90 @@ padding-right: 10%;}
     align-items: flex-start;}
     
     .info
-    {padding-left: 10%;}
+    {padding-left: 5%;}
 
-   /*-------------Hebergements---------------------*/
+   /*-------------Hebergements general---------------------*/
 
 
     .grosbloc                   /* inversion de position entre "hebergement" et "les plus pop"*/
     {   
         flex-direction: column-reverse;
+        justify-content: space-between;
         padding: 0;
-        margin: 5%;
+        margin: 0;
+        width: 100%;
+    }
+ 
+/* ---------------------Favoris------------------ */
+
+    .Populaires
+
+    {   display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        height: auto;
     }
 
     
+    .imgpop2
+    {width: 100%;}
+    .imgpop3
+    {width: 100%;}
+
+.totalcardspop
+{flex-direction: column;
+width: 100%;
+justify-content:space-between;
+height: auto;
+margin: 0 0 10% 0;}
+
+.titrepop
+{margin-bottom: 0;}
 
 
-    .Populaires     /*augmentation taille bloc "populaire et ajustement des marges*/
-    {   
+.cardspop
+{
+    display: flex;
+    padding: 2% ;
+}
+
+
+.acard2
+{
+    width: 40%;
+}
+
+.imgbox
+{
+    width: 100%;
+}
+
+ .imgpop1
+    {
         width: 100%;
-        margin-right: 20px;
-        padding-left: 10%;
-        padding-right: 5%;
     }
 
 
+.cardsdetailpop
+{width: 60%;
+font-size: small;}
 
+
+    /* --------------Herbegement----------- */
+
+    #Hebergement
+   {padding-left: 20px;}
+    
+    
+    
     .blocHebergement
     {   
         background-color: white;
         width: 100%;
+        margin: auto;
+        
+
     }
 
     .cards123
@@ -324,25 +403,37 @@ padding-right: 10%;}
     .card1
     {   display: block;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin: 0;
-        margin-bottom: 1% ;
+        margin-bottom: 10% ;
     }
         
 
-    
+    .imagehebergement
+    {height: 120px;}
+
+    .cardsdetailhebergement
+    {font-size: small;
+    height: 80px;}
 
 
    /*-------------------------Activités--------------------------------------------*/     /*   Equilibrage des 2 formats d'activité (S et XS) */
     
+   
+   
+   
+   
    .Activitégenerale
-   {padding: 5%;}
+   {width: auto;
+    margin: 5%;
+}
    
    
    .totalcarsactivite 
     {
         flex-direction: column;
         height: auto;
+        
     }
 
     .cardsactivité
@@ -365,7 +456,8 @@ padding-right: 10%;}
         height: auto;
     }
     
-
+    .acard3
+    {width: 100%;}
       
       .ImgActivité1,
       .ImgActivité2,
@@ -374,8 +466,8 @@ padding-right: 10%;}
       .ImgActivité5,
       .ImgActivité6 
     {
-        height: 200px;
-        width: 600px;
+        height: 160px;
+        width: 100%;
         max-width: 100%;
     }
         
@@ -389,8 +481,7 @@ padding-right: 10%;}
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            padding-top: 50px;
-            padding-left: 20px;
+           
             height: auto;
             width: 100%;
     }
